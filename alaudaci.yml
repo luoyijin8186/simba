@@ -1,6 +1,6 @@
 version: "0.1.0"
 pre_ci_boot:
- image: index.alauda.cn/demo100/jdk8
+image: index.alauda.cn/demo100/jdk8
 ci:
  - javac Helloworld.java
  - cp ./Helloworld.class $ALAUDACI_DEST_DIR
