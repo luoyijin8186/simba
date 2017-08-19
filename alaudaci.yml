@@ -1,6 +1,6 @@
 version: "0.1.0"
 pre_ci_boot:
-  image: index.alauda.cn/demo100/piggyjava
+  image: 168.130.7.167:5000/common/tomcat7
   tag: "latest"
 ci:
   - javac Helloworld.java
