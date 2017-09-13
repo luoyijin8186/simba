@@ -7,7 +7,7 @@ public class Helloworld extends Thread {
             System.out.print(i);
             try {
                 Thread.sleep(1000);
-                System.out.print("Hello world! by wjl\n");
+                System.out.print("Hello world! by lzh\n");
                 
             } catch (InterruptedException e) {
                 e.printStackTrace();
